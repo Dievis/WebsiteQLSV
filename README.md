@@ -20,7 +20,8 @@ Lưu ý: Laragon là một ứng dụng quản lý cơ sở dữ liệu và môi
 http://localhost/WebsiteQLSV/src/auth/login.php
 
 4. **Query database:**
-   usersusersCREATE DATABASE IF NOT EXISTS `internship_management` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+usersusersCREATE DATABASE IF NOT EXISTS `internship_management` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `internship_management`;
 
 CREATE TABLE IF NOT EXISTS `users` (
