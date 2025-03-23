@@ -1,0 +1,21 @@
+{
+    "name": "dattp/baitap2php",
+    "description": "QuanLyDuAn",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dattp\\Baitap2php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TranPhatDat",
+            "email": "dattp3010@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.1",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
